@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Moha - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"> <a style="color: white; text-decoration: none;" href="#">Moha's Portfolio</a> </div>
+      <div class="right">
+        <ul>
+          <a href="#">
+            Home
+          </a>
+          <a href="#">
+            Experience
+          </a>
+          <a href="#">
+            Elevator Pitch
+          </a>
+          <a href="#">
+            Portfolio
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, my name is <span class="purple">Mohamed</span>
+        <div>and I am a passionate
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"><a class="btn" target="_blank" href="cv/cv.pdf">Download Resume</a> </button>
+            <button class="btn"> <a class="btn" target="_blank" href="https://github.com/MohaMansour01">Visit
+                Github</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="rightSection"> <img class="personal-photo" src="personal photo.jpeg"> </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-gray"></span>
+      <h1>Knowledge Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="pg.png" alt="">
+          <div class="vertical-title">
+            IT Student (2020-2023)
+          </div>
+          <div class="vertical-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nam modi aperiam veritatis tempore excepturi
+            in. Cupiditate dicta aut rem deleniti, ut inventore, molestiae nisi tempore neque iusto provident quisquam?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="">
+          <div class="vertical-title">
+            HTML & CSS Developer (2022-2023)
+          </div>
+          <div class="vertical-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nam modi aperiam veritatis tempore excepturi
+            in. Cupiditate dicta aut rem deleniti, ut inventore, molestiae nisi tempore neque iusto provident quisquam?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="sql.png" alt="">
+          <div class="vertical-title">
+            SQL Administrator (2021-2023)
+          </div>
+          <div class="vertical-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nam modi aperiam veritatis tempore excepturi
+            in. Cupiditate dicta aut rem deleniti, ut inventore, molestiae nisi tempore neque iusto provident quisquam?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="photoshop.png" alt="">
+          <div class="vertical-title">
+            Photoshop Designer (2023)
+          </div>
+          <div class="vertical-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nam modi aperiam veritatis tempore excepturi
+            in. Cupiditate dicta aut rem deleniti, ut inventore, molestiae nisi tempore neque iusto provident quisquam?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="js.png" alt="">
+          <div class="vertical-title">
+            Js Developer (2023)
+          </div>
+          <div class="vertical-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nam modi aperiam veritatis tempore excepturi
+            in. Cupiditate dicta aut rem deleniti, ut inventore, molestiae nisi tempore neque iusto provident quisquam?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="py.png" alt="">
+          <div class="vertical-title">
+            Python Developer (2023)
+          </div>
+          <div class="vertical-desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nam modi aperiam veritatis tempore excepturi
+            in. Cupiditate dicta aut rem deleniti, ut inventore, molestiae nisi tempore neque iusto provident quisquam?
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <section style="background-color: white;" class="secondSection">
+    <h2 style="color: black; font-size: 2rem; padding: 20px;">Elevator Pitch</h2>
+  </section>
+
+  <footer style="margin-top: 100px;">
+    <div class="footer">
+      <div class="footer-first">
+      <a target="_blank" href="#" class="go-btn">Go to Portfolio</a>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      Copyright &#169 mohaportfolio.com | All rights reserved
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'SQL Administrator.', 'IT Student.', 'Software Eng. ALX Student.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
